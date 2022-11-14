@@ -1,4 +1,4 @@
-const math = require("./math");
+import math from "./math";
 const { sum } = math();
 
 describe("Teste de função simples - math.js", () => {

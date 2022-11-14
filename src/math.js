@@ -8,4 +8,4 @@ const math = () => {
   };
 };
 
-module.exports = math;
+export default math;
