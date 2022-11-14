@@ -3,11 +3,13 @@
   <br />
 
 ## 13/11
-Primeiro teste. Realizado teste em uma função matemática (math.js). Aprendido a descrever os testes.
+Primeiro teste. Realizado teste em uma função matemática como acerto (math.js). Aprendido a descrever os testes.
 <br>
 
 ## 14/11
 Realizado teste em um objeto (vector.js). 
+Realizado teste em uma função matemática como erro (math.js).
+Realizado teste com boleanos.
 <br><br>
 
 ## Instruções para rodar o Jest em ECMAScript 6
@@ -30,5 +32,5 @@ Realizado teste em um objeto (vector.js).
 <pre id="tmp" style="display: none">Criar babel.config.json</pre>
 <pre id="tmp" style="display: none">npm install @babel/preset-env --save-dev</pre>
 <pre id="tmp" style="display: none">Editar babel.config.json <br><br>{
-  "presets": ["@babel/preset-env"]
+  "presets": ["@babel/preset-env", "@babel/preset-react"]
 }</pre>

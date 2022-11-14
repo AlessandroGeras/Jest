@@ -22,3 +22,15 @@ describe("Teste de comparação de valores com objeto - vector.js", () => {
     expect(vector).toEqual({type:"Fiat", model:"500", color:"white"});
   });
 });
+
+//toBeTruthy verifica se o campo é verdadeiro
+describe("Teste de comparação com boleano", () => {
+  test("Os objetos testados devem ser verdadeiros", () => {
+    const boleanoOne = true;
+    const boleanoTwo = 1;
+    expect(boleanoOne).toBeTruthy();
+    expect(boleanoTwo).toBeTruthy();
+  });
+});
+
+

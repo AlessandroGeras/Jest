@@ -1,11 +1,12 @@
-import math from "./math";
-const {sum} = math();
+import React from "react";
+import Click from "./click";
 
 
 function App() {
+
   return (
     <div>
-      {sum(-4,1)}
+      <Click />
     </div>
   );
 }
