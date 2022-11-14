@@ -8,7 +8,7 @@ Primeiro teste. Realizado teste em uma função matemática como acerto (math.js
 
 ## 14/11
 Realizado teste em um objeto (vector.js). 
-Realizado teste em uma função matemática como erro (math.js).
+Realizado teste em uma função matemática como erro (math.js).<br>
 Realizado teste com boleanos.
 <br><br>
 
