@@ -2,10 +2,17 @@ import math from "./math";
 const { sum } = math();
 import vector from "./vector";
 
-//toBe verifica um resultado simples
-describe("Teste de comparação de valores - math.js", () => {
+//toBe verifica um resultado simples como acerto
+describe("Teste de comparação de valores como acerto - math.js", () => {
   test("A soma esperada de -4 e 1 deve ser -3", () => {
     expect(sum(-4, 1)).toBe(-3);
+  });
+});
+
+//not.toBe verifica um resultado simples como erro
+describe("Teste de comparação de valores como erro - math.js", () => {
+  test("A soma esperada de -4 e 1 não deve ser 3", () => {
+    expect(sum(-4, 1)).not.toBe(3);
   });
 });
 
