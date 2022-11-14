@@ -3,7 +3,11 @@
   <br />
 
 ## 13/11
-Primeiro teste. Realizado teste simples de uma função matemática (math.js). Aprendido a descrever os testes.
+Primeiro teste. Realizado teste em uma função matemática (math.js). Aprendido a descrever os testes.
+<br>
+
+## 14/11
+Realizado teste em um objeto (vector.js). 
 <br><br>
 
 ## Instruções para rodar o Jest em ECMAScript 6
