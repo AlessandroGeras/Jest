@@ -3,11 +3,12 @@
   <br />
 
 ## 13/11
-Primeiro teste. Realizado teste em uma função matemática como acerto (math.js). Aprendido a descrever os testes.
+Realizado teste em uma função matemática como acerto (math.js).<br>
+Aprendido a descrever os testes.
 <br>
 
 ## 14/11
-Realizado teste em um objeto (vector.js). 
+Realizado teste em um objeto (vector.js).<br>
 Realizado teste em uma função matemática como erro (math.js).<br>
 Realizado teste com boleanos.
 <br><br>
