@@ -1,9 +1,10 @@
 import math from "./math";
 const { sum } = math();
-import vector from "./vector";
+import car from "./car";
+import shopping from "./shopping";
 
 //Comparativos comuns
-describe("Teste de comparação de valores como acerto - math.js", () => {
+describe("Teste de comparação de valores - math.js", () => {
   test("A soma esperada de -4 e 1 deve ser -3", () => {
     expect(sum(-4, 1)).toBe(-3);
     expect(sum(-4, 1)).not.toBe(3);
@@ -17,7 +18,7 @@ describe("Teste de comparação de valores como acerto - math.js", () => {
 //toEqual verifica todos os campos de um objeto
 describe("Teste de comparação de valores com objeto - vector.js", () => {
   test("O objeto esperado deve ser type:'Fiat', model:'500', color:'white'", () => {
-    expect(vector).toEqual({ type: "Fiat", model: "500", color: "white" });
+    expect(car).toEqual({ type: "Fiat", model: "500", color: "white" });
   });
 });
 
@@ -28,5 +29,19 @@ describe("Teste de comparação com boleano", () => {
     const boleanoTwo = 1;
     expect(boleanoOne).toBeTruthy();
     expect(boleanoTwo).toBeTruthy();
+  });
+});
+
+//toMatch comparativo de string
+describe("Teste de comparação com string", () => {
+  test("Existe a palavra uva dentro da palavra chuva", () => {
+    expect("chuva").toMatch(/uva/);
+  });
+});
+
+//toContain verifica item em um vetor
+describe("Teste de comparação com vetor", () => {
+  test("the shopping list has milk on it", () => {
+    expect(shopping).toContain("supermercado");
   });
 });

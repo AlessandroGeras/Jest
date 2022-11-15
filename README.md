@@ -14,7 +14,9 @@ Realizado teste com boleanos.
 <br>
 
 ## 15/11
-Realizado testes comparativos de menor ou maior que um determinado valor (math.js).
+Realizado testes comparativos de menor ou maior que um determinado valor (math.js).<br>
+Realizado teste com string.<br>
+Realizado teste com vetor (shopping.js).
 <br><br>
 
 ## Instruções para rodar o Jest em ECMAScript 6
