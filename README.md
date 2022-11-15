@@ -11,6 +11,10 @@ Aprendido a descrever os testes.
 Realizado teste em um objeto (vector.js).<br>
 Realizado teste em uma função matemática como erro (math.js).<br>
 Realizado teste com boleanos.
+<br>
+
+## 15/11
+Realizado testes comparativos de menor ou maior que um determinado valor (math.js).
 <br><br>
 
 ## Instruções para rodar o Jest em ECMAScript 6
