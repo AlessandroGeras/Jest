@@ -3,6 +3,7 @@
   <br />
 
 ## 13/11
+Instalação do Jest e configuração do Babel.<br>
 Realizado teste em uma função matemática como acerto (math.js).<br>
 Aprendido a descrever os testes.
 <br>
