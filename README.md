@@ -19,7 +19,7 @@ Realizado testes comparativos de menor ou maior que um determinado valor (math.j
 Realizado teste com string.<br>
 Realizado teste com vetor (shopping.js).<br>
 Realizado teste com decimal.<br>
-Realizado teste com throw.<br>
+Realizado teste com throw (error.js).<br>
 Aprendido a chamar funções antes e depois dos testes.
 <br><br>
 
