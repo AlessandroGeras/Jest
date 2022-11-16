@@ -2,6 +2,8 @@ import math from "./math";
 const { sum } = math();
 import car from "./car";
 import shopping from "./shopping";
+import error from "./error";
+import hello from "./hello";
 
 //Comparativos comuns
 describe("Teste de comparação de valores - math.js", () => {
@@ -33,15 +35,35 @@ describe("Teste de comparação com boleano", () => {
 });
 
 //toMatch comparativo de string
-describe("Teste de comparação com string", () => {
+describe("Teste de compacomparativo de stringração com string", () => {
   test("Existe a palavra uva dentro da palavra chuva", () => {
     expect("chuva").toMatch(/uva/);
   });
 });
 
+//toBeCloseTo comparativo de float
+describe("Teste de comparação com float", () => {
+  const decimal = 0.3;
+  expect(decimal).toBeCloseTo(0.3);
+});
+
 //toContain verifica item em um vetor
 describe("Teste de comparação com vetor", () => {
-  test("the shopping list has milk on it", () => {
+  test("A lista de shopping possui o item supermercado", () => {
     expect(shopping).toContain("supermercado");
   });
+});
+
+//toThrow verifica se um erro (throw) foi recebido
+describe("Teste de comparação com throw - error.js", () => {
+  test("Verifica se o erro foi recebido", () => {
+    expect(() => error()).toThrow();
+  });
+});
+
+//beforeAll é um hook executado antes de todos os testes
+//beforeEach é um hook executado antes de cada teste
+beforeAll(() => {
+  let describe = "Executa a função hello - hello.js";
+  hello();
 });
