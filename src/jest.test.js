@@ -4,6 +4,12 @@ import car from "./car";
 import shopping from "./shopping";
 import error from "./error";
 import hello from "./hello";
+import api from "./api";
+
+/*
+test.only
+Para realizar testes únicos, usar test.only para fazer que somente aquele teste rode, dando skip nos outros
+*/
 
 //Comparativos comuns
 describe("Teste de comparação de valores - math.js", () => {
@@ -61,9 +67,25 @@ describe("Teste de comparação com throw - error.js", () => {
   });
 });
 
-//beforeAll é um hook executado antes de todos os testes
-//beforeEach é um hook executado antes de cada teste
+/*
+beforeAll é um hook executado antes de todos os testes
+beforeEach é um hook executado antes de cada teste
+Também é possível definir escopos para os testes
+*/
 beforeAll(() => {
   let describe = "Executa a função hello - hello.js";
   hello();
+});
+
+/*
+Mockando funções
+Mock serve para simular partes do código que precisam ser testadas sem precisar realmente rodar essas partes. Por exemplo, testar um fetch. Para isso simulamos a resposta do fetch para de fato testar o resto do código que é mais importante
+*/
+//Este exemplo é um mock da api.js
+global.fetch = jest.fn().mockResolvedValue("Garota do Século 20");
+
+describe('Mostrar o título do filme em primeiro lugar da API do site themoviedb', () => {
+  it('Resolvendo a Promise', async () => {
+     await expect(global.fetch()).resolves.toBe("Garota do Século 20")
+  })
 });

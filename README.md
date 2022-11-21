@@ -21,6 +21,12 @@ Realizado teste com vetor (shopping.js).<br>
 Realizado teste com decimal.<br>
 Realizado teste com throw (error.js).<br>
 Aprendido a chamar funções antes e depois dos testes.
+<br>
+
+## 21/11
+Realizado testes únicos.<br>
+Realizado testes em escopo.<br>
+Realizado testes com Mock.
 <br><br>
 
 ## Instruções para rodar o Jest em ECMAScript 6
