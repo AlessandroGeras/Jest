@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-
 function Click() {
   const [count, setCount] = useState(5);
 

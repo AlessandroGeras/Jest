@@ -1,5 +1,6 @@
 import React from "react";
 import Click from "./click";
+import Starwars from "./starwars";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <div>
       <Click />
+      <Starwars />
     </div>
   );
 }

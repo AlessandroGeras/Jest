@@ -7,7 +7,7 @@ const query = api_database + api_top_rated + api_key;
 
 const backdrop_path = "https://image.tmdb.org/t/p/original/"; /* Main image for Backdrop */
 
-function getmovie() {
+const getmovie = () => {
   fetch(query)
     .then((response) => response.json())
     .then((showjson) => {
@@ -17,6 +17,11 @@ function getmovie() {
 })};
 
 getmovie();
+
+return {
+  getmovie,
+};
+
 };
 
 export default api;

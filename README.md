@@ -26,7 +26,11 @@ Aprendido a chamar funções antes e depois dos testes.
 ## 21/11
 Realizado testes únicos.<br>
 Realizado testes em escopo.<br>
-Realizado testes com Mock.
+Realizado testes com Mock em consumo de API.
+<br>
+
+## 22/11
+Realizado testes com Fake Timer.<br>
 <br><br>
 
 ## Instruções para rodar o Jest em ECMAScript 6
