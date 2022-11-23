@@ -4,22 +4,22 @@
 
 ## 13/11
 Instalação do Jest e configuração do Babel.<br>
-Realizado teste em uma função matemática como acerto (math.js).<br>
+Testes realizados em funções matemáticas para verificação de resultados esperados.<br>
 Aprendido a descrever os testes.
 <br>
 
 ## 14/11
-Realizado teste em um objeto (vector.js).<br>
-Realizado teste em uma função matemática como erro (math.js).<br>
+Testes realizados com objetos.<br>
+Testes realizados em uma função matemática para verificação de resultados não esperados.<br>
 Realizado teste com boleanos.
 <br>
 
 ## 15/11
-Realizado testes comparativos de menor ou maior que um determinado valor (math.js).<br>
-Realizado teste com string.<br>
-Realizado teste com vetor (shopping.js).<br>
-Realizado teste com decimal.<br>
-Realizado teste com throw (error.js).<br>
+Testes realizados com comparação de valores.<br>
+Testes realizados com strings.<br>
+Testes realizados com vetores.<br>
+Testes realizados com decimais.<br>
+Testes realizados com throw.<br>
 Aprendido a chamar funções antes e depois dos testes.
 <br>
 
