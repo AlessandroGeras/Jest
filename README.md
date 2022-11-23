@@ -31,6 +31,10 @@ Realizado testes com Mock em consumo de API.
 
 ## 22/11
 Realizado testes com Fake Timer.<br>
+<br>
+
+## 23/11
+Testes concluídos e refatorados.<br>
 <br><br>
 
 ## Instruções para rodar o Jest em ECMAScript 6
